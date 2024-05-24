@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    z-index: 10;
+    top: 0;
+    position: fixed;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    margin-top: 150px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#about, #skills, #projects {
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+#about h2, #skills h2, #projects h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li::before {
+    content: "• ";
+    color: #333;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
